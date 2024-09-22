@@ -1,0 +1,14 @@
+{
+  "name": "e-commerce-mutaengine",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm start --prefix frontend\" \"npm start --prefix server\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  },
+  "dependencies": {
+    "comsol": "file:",
+    "e-commerce-mutaengine": "file:"
+  }
+}

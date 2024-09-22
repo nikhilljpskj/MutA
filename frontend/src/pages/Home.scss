@@ -1,0 +1,36 @@
+.home {
+    &__carousel {
+        display: flex;
+        overflow-x: scroll;
+        max-width: 100vw; // Prevent exceeding screen width
+        margin: 0 auto; // Center the carousel
+        img {
+            width: 100%; // Keep images responsive
+            height: 300px;
+            object-fit: cover;
+            margin-right: 10px;
+        }
+    }
+
+    &__products {
+        margin: 20px;
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        &__row {
+            display: flex;
+            overflow-x: scroll;
+            padding: 10px;
+            margin-bottom: 20px;
+            max-width: 100vw; // Prevent exceeding screen width
+            margin: 0 auto; // Center the row
+
+            &::-webkit-scrollbar {
+                display: none; /* Hide scrollbar for better UX */
+            }
+        }
+    }
+}

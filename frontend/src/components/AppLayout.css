@@ -1,0 +1,13 @@
+.app-layout{
+    display: flex;
+}
+.content{
+    width: 100%;
+    margin: 0rem 1rem;
+    margin-bottom: 3rem;
+    margin-left: 220px;
+}
+.base{
+    width: 100%;
+    margin: 0% 0%;
+}
